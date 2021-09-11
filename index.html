@@ -68,7 +68,7 @@
         function setTime() {
             document.getElementById("time").innerText = "时间：" + curDateTime();
         }
-        function setInfo(){
+        function setInfo() {
             document.getElementById("stu-name").innerText = document.getElementById("name").value;
             document.getElementById("stu-number").innerText = document.getElementById("number").value;
             document.getElementById("stu-distress").innerText = document.getElementById("distress").value;
@@ -152,12 +152,11 @@
     <br/><br/>
     <label>地址：
         <input id="distress" value="校区" list="address" >
-        <datalist id="address" >
+        <datalist id="address">
             <option value="浑南校区西门" >
             <option value="浑南校区东门">
             <option value="南湖校区西门">
             <option value="南湖校区南门">
-            <option value="南湖校区南门1">
         </datalist></label>
     <br/><br/>
     <label> 你是傻逼吗：<select>
@@ -168,8 +167,8 @@
     <button onclick="setInfo()">进入快乐星球</button>
 </div>
 
-<div id="app" style="display: none;" style="background-color: RGB(238,255,52)">
-    <div class="card border-0 text-center" style="background-color: RGB(238,255,52)">
+<div id="app" style="display: none;">
+    <div class="card border-0 text-center" style="color: RGB(42,100,56)">
         <div class="card-body">
             <h2 class="card-title p-2">东北大学通行验证</h2>
 
@@ -183,7 +182,7 @@
         </div>
     </div>
 
-    <ul class="list-group list-group-flush" style="background-color: RGB(238,255,52)">
+    <ul class="list-group list-group-flush" style="background-color: RGB(42,100,56)">
         <li class="list-group-item bg-transparent text-white d-flex">
             <div style="min-width: 4em; text-align-last: justify;">学工号</div>：<div id="stu-number">20170456</div>
         </li>
