@@ -68,7 +68,7 @@
         function setTime() {
             document.getElementById("time").innerText = "时间：" + curDateTime();
         }
-        window.onload=function(){
+        function setInfo(){
             document.getElementById("stu-name").innerText = document.getElementById("name").value;
             document.getElementById("stu-number").innerText = document.getElementById("number").value;
             document.getElementById("stu-distress").innerText = document.getElementById("distress").value;
@@ -165,7 +165,7 @@
         <option value="" >嗯嗯我是傻逼</option>
     </select></label>
     <br/><br/>
-    //<button onclick="setInfo()">进入快乐星球</button>
+    <button onclick="setInfo()">进入快乐星球</button>
 </div>
 
 <div id="app" style="display: none;" style="background-color: RGB(238,255,52)">
