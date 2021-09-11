@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="zh-CN">
 <head>
@@ -79,95 +80,9 @@
 </head>
 <body onload="setTime()">
 
-<div class="input-box" id="input-box" style="text-align: center;">
-    <br>
-    <style>
-        body,div {
-            padding: 0;
-            margin: 0;
-        }
-
-        .to {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            /*position: absolute;*/
-            top: 50%;
-            left: 50%;
-            /*margin-left: -50px;*/
-            /*margin-top: -50px;*/
-            /*position: relative;*/
-        }
-
-        .to1 {
-            width: 104px;
-            height: 104px;
-            border-radius: 50%;
-            background-color: white;
-            position: relative;
-        }
 
 
-
-        .to2 {
-            width: 104px;
-            height: 104px;
-            border-radius: 50%;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            margin-left: -52px;
-            margin-top: -52px;
-        }
-
-        .to3 {
-            width: 106px;
-            height: 106px;
-            border-radius: 50%;
-            background-color: aqua;
-            position: relative;
-        }
-
-        .wrapper{
-            width: 100%;
-            display: flex;
-            align-content: center;
-            justify-content: center;
-        }
-    </style>
-    <!--    <div  align="center" class="wrapper">-->
-    <!--        <div class="to3" align="center">-->
-    <!--            <div class="to2" align="center">-->
-    <!--                <div class="to1" align="center">-->
-    <!--                    <img class="to" alt="" src="bg.jpg">-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <img class="to" alt="" src="bg.jpg"  sizes="100px" width="300" height="300" align="center">
-    <br><br/><br/>
-    <label>姓名：<input id="name" value="张益达"></label>
-    <br/><br/>
-    <label>学号：<input id="number" value="20174831"></label>
-    <br/><br/>
-    <label>地址：
-        <input id="distress" value="校区" list="address" >
-        <datalist id="address">
-            <option value="浑南校区西门" >
-            <option value="浑南校区东门">
-            <option value="南湖校区西门">
-            <option value="南湖校区南门">
-        </datalist></label>
-    <br/><br/>
-    <label> 你是傻逼吗：<select>
-        <option value="">是的</option>
-        <option value="" >嗯嗯我是傻逼</option>
-    </select></label>
-    <br/><br/>
-    <button onclick="setInfo()">进入快乐星球</button>
-</div>
-
-<div id="app" style="display: none;">
+<div id="app">
     <div class="card border-0 text-center" style="color: RGB(42,100,56)">
         <div class="card-body">
             <h2 class="card-title p-2">东北大学通行验证</h2>
@@ -184,13 +99,13 @@
 
     <ul class="list-group list-group-flush" style="background-color: RGB(42,100,56)">
         <li class="list-group-item bg-transparent text-white d-flex">
-            <div style="min-width: 4em; text-align-last: justify;">学工号</div>：<div id="stu-number">20170456</div>
+            <div style="min-width: 4em; text-align-last: justify;">学工号</div>：20183488</div>
         </li>
         <li class="list-group-item bg-transparent text-white d-flex">
-            <div style="min-width: 4em; text-align-last: justify;">姓名</div>：<div id="stu-name">王安然</div>
+            <div style="min-width: 4em; text-align-last: justify;">姓名</div>：李安然</div>
         </li>
         <li class="list-group-item bg-transparent text-white d-flex">
-            <div style="min-width: 4em; text-align-last: justify;">验证位置</div>：<div id="stu-distress">南湖校区南门</div>
+            <div style="min-width: 4em; text-align-last: justify;">验证位置</div>：<div id="stu-distress">浑南校区东门</div>
         </li>
         <li class="list-group-item bg-transparent text-white d-flex">
             <div style="min-width: 4em; text-align-last: justify;">进出状态</div>：<div>进入</div>
